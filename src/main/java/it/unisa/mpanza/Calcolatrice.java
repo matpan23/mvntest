@@ -13,4 +13,11 @@ public class Calcolatrice {
     public int Moltiplicazione(int a, int b) {
         return a*b;
     }
+    public int Division(int a, int b) {
+        return a/b;
+    }
+    public int Sottrazione(int a, int b) {
+        return a-b;
+    }
+
 }

@@ -15,4 +15,10 @@ public class CalcolatriceTest {
     public void TestMoltiplicazione() {
         assertTrue(calcolatrice.Moltiplicazione(10,2)==20, "moltiplicazione corretta");
     }
+    public void TestDivisione() {
+        assertTrue(calcolatrice.Division(10,2)==5, "divisione corretta");
+    }
+    public void TestSottrazione() {
+        assertTrue(calcolatrice.Sottrazione(22,2)==20, "sottrazione corretta");
+    }
 }
